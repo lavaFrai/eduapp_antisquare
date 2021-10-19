@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "eduapp_antisquare",
+    "version": "1.0",
+    "content_scripts":
+    [
+        {
+            "matches": ["https://my.informatics.ru/pupil/*"],
+            "js": ["app.js"]
+        }
+    ]
+}
