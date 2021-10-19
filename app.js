@@ -1,3 +1,8 @@
+function getElementByXpath(path) {
+    return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+}
+
+
 setInterval(function(){
     if (document.querySelector(".shp-copyright") != null)
         document.querySelector(".shp-copyright").remove();
@@ -22,4 +27,7 @@ setInterval(function(){
         
     if (document.querySelector(".shp_notification__img") != null)
         document.querySelector(".shp_notification__img").src = "https://i.ibb.co/9WJJpBS/Cm-WI4e-Z74u0-removebg-preview.png";
+
+    if (getElementByXpath("/html/body/div/div/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[5]/div[1]/div") != null)
+        getElementByXpath("/html/body/div/div/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[5]/div[1]/div").innerHTML = '<img src="https://media1.giphy.com/media/10FwycrnAkpshW/giphy.gif">';
 }, 1000)
