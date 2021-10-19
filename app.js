@@ -32,7 +32,7 @@ setInterval(function(){
         document.querySelector(".brand-logo").style.backgroundImage = "url(\"https://steamuserimages-a.akamaihd.net/ugc/859487187058166664/F1394B31361B706826D9DE26FBA775FAC0666975/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true\")";
         
     if (document.querySelector(".shp_notification__img") != null)
-        document.querySelector(".shp_notification__img").src = "https://i.ibb.co/9WJJpBS/Cm-WI4e-Z74u0-removebg-preview.png";
+        document.querySelector(".shp_notification__img").src = "https://github.com/lavaFrai/eduapp_antisquare/blob/main/media/gashishka.png?raw=true";
 
     if (getElementByXpath("/html/body/div/div/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[5]/div[1]/div") != null)
         getElementByXpath("/html/body/div/div/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[5]/div[1]/div").innerHTML = '<img src="https://github.com/lavaFrai/eduapp_antisquare/blob/main/media/ricardo-milos.gif?raw=true">';
